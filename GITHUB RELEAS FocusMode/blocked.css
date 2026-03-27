@@ -1,0 +1,16 @@
+/* blocked.css */
+body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    background-color: #f44336 !important;
+    color: white !important;
+    font-family: sans-serif !important;
+    font-size: 3rem !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+}
+body::after {
+    content: "🎯 ВРЕМЯ ФОКУСА! ВЕРНИСЬ К РАБОТЕ!";
+}
